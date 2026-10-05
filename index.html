@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MEZAM Engineering — Medical Division</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+:root{--blue:#0A66FF;--navy:#032B63;--bg:#f6f9fc}
+body{background:#fff;color:#1f2937;scroll-behavior:smooth}
+body.dark{background:#0b1220;color:#e5eefc}
+header{position:fixed;top:0;width:100%;padding:16px 7%;display:flex;justify-content:space-between;align-items:center;background:rgba(3,43,99,.95);backdrop-filter:blur(10px);z-index:99}
+.logo{color:#fff;font-weight:700}
+nav a{color:#fff;text-decoration:none;margin-left:18px;font-size:14px}
+.hero{
+    height:100vh;
+    background:
+        linear-gradient(rgba(3,43,99,.72), rgba(3,43,99,.78)),
+        url("images lits/Logo2.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:#fff;
+    padding:20px;
+}
+.hero h1{font-size:58px}.hero p{max-width:720px;margin:20px auto;font-size:20px;line-height:1.6}
+.btn{display:inline-block;background:var(--blue);color:#fff;padding:14px 26px;border-radius:999px;text-decoration:none;font-weight:700;margin:8px}
+section{padding:90px 7%}h2{font-size:34px;color:var(--blue);text-align:center;margin-bottom:10px}.sub{text-align:center;max-width:760px;margin:0 auto 34px;color:#64748b;line-height:1.7}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px}.card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 10px 24px rgba(0,0,0,.08);transition:.3s}.dark .card{background:#101a2d}.card:hover{transform:translateY(-8px)}.card img{width:100%;height:220px;object-fit:cover}.card div{padding:20px}.badge{display:inline-block;background:#eaf2ff;color:var(--blue);padding:6px 12px;border-radius:999px;font-size:12px;font-weight:700;margin-bottom:10px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.gallery img{width:100%;height:230px;object-fit:cover;border-radius:16px;cursor:pointer}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.feature{background:var(--bg);padding:20px;border-left:4px solid var(--blue);border-radius:14px}.dark .feature{background:#111b30}.cta{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;border-radius:24px;padding:42px;text-align:center}.contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}.box{background:var(--bg);padding:24px;border-radius:14px;text-align:center}.dark .box{background:#101a2d}footer{background:#001A36;color:#d6e4ff;text-align:center;padding:30px}.top{position:fixed;bottom:18px;right:18px;display:flex;flex-direction:column;gap:10px}.fab{width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;text-decoration:none;font-size:28px;box-shadow:0 10px 20px rgba(0,0,0,.25)}.wa{background:#25D366}.mode{background:#111827;border:none;cursor:pointer}.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;padding:20px}.lightbox img{max-width:90%;max-height:90%;border-radius:14px}.lightbox.show{display:flex}
+@media(max-width:768px){nav{display:none}.hero h1{font-size:40px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">MEZAM Engineering</div>
+<nav>
+<a href="#about">About</a><a href="#services">Services</a><a href="#models">Models</a><a href="#strengths">Strengths</a><a href="#partners">Partners</a><a href="#contact">Contact</a>
+</nav>
+</header>
+<section class="hero">
+<div>
+<div class="badge">MEDICAL DIVISION</div>
+<h1>MEDICAL BEDS & ACCESSORIES</h1>
+<p>Engineering Beyond Matter — Premium manufacturing, maintenance and supply of hospital beds and medical accessories.</p>
+<a class="btn" href="#models">Explore Catalogue</a>
+<a class="btn" href="#contact">Request a Quote</a>
+</div>
+</section>
+<section id="about"><h2>ABOUT US</h2><p class="sub">MEZAM Engineering & Services is a Cameroonian company specialized in engineering, production, maintenance and supply of hospital beds and medical accessories for healthcare institutions.</p><div class="grid"><div class="card"><img src="images lits/Local.jpeg"><div><h3>Who We Are</h3><p>Reliable engineering solutions for hospitals, clinics, laboratories and health centers.</p></div></div><div class="card"><img src="images lits/lit6.PNG"><div><h3>Our Vision</h3><p>To become a trusted healthcare engineering reference across Cameroon and Africa.</p></div></div></div></section>
+<section id="services"><h2>OUR SERVICES</h2><p class="sub">Complete medical engineering solutions.</p><div class="grid"><div class="card"><img src="images lits/lit2.jpeg"><div><h3>Production</h3><p>Hospital beds, examination tables, IV stands, trolleys and custom medical furniture.</p></div></div><div class="card"><img src="images lits/lit6.PNG"><div><h3>Maintenance</h3><p>Preventive, corrective and curative maintenance of hospital equipment.</p></div></div><div class="card"><img src="images lits/lit4.PNG"><div><h3>Sales</h3><p>Supply of premium medical beds and accessories throughout Cameroon.</p></div></div></div></section>
+<section id="models"><h2>OUR MODELS</h2><p class="sub">Click any image to zoom.</p><div class="gallery"><img src="images lits/lit3.PNG"><img src="images lits/lit4.PNG"><img src="images lits/lit7.PNG"><img src="images lits/lit8.PNG"><img src="images lits/lit9.PNG"><img src="images lits/lit2.jpeg"><img src="images lits/tool1.jpeg"><img src="images lits/tool2.jpeg"><img src="images lits/tool3.jpeg"></div></section>
+<section id="strengths"><h2>OUR STRENGTHS</h2><div class="features"><div class="feature"><h4>Technical Expertise</h4><p>Engineering & fabrication excellence.</p></div><div class="feature"><h4>Quality & Reliability</h4><p>Safe, durable and ergonomic equipment.</p></div><div class="feature"><h4>Custom Solutions</h4><p>Adapted to every healthcare facility.</p></div><div class="feature"><h4>After-Sales Support</h4><p>Long-term maintenance & assistance.</p></div><div class="feature"><h4>Competitive Pricing</h4><p>Excellent value for investment.</p></div><div class="feature"><h4>Respect of Deadlines</h4><p>Professional project delivery.</p></div></div></section>
+<section id="partners"><h2>OUR PARTNERS</h2><div class="grid"><div class="card"><img src="images lits/Partenaire1.PNG"><div><h3>OMRAAM SERVICES</h3><p>Strategic medical supply partner.</p></div></div><div class="card"><img src="images lits/Partenaire2.PNG"><div><h3>DESIGN BOX</h3><p>Branding and visual communication partner.</p></div></div></div></section>
+<section><div class="cta"><h2 style="color:white;margin-bottom:12px">Need a quotation?</h2><p style="margin-bottom:18px">We manufacture, maintain and deliver medical beds across Cameroon.</p><a class="btn" href="#contact">Contact MEZAM</a></div></section>
+<section id="contact"><h2>CONTACT</h2><div class="contact"><div class="box"><h3>Phone</h3><p>+237 674 276 802</p><p>+237 695 483 591</p></div><div class="box"><h3>Email</h3><p>mezamengineering@gmail.com</p></div><div class="box"><h3>Location</h3><p>Douala, PK13</p><p>Entrée Chinois</p><p>Near the 13th Police Station</p></div></div></section>
+<footer><h3>MEZAM ENGINEERING & SERVICES SARL</h3><p>Medical Beds & Accessories Division</p><p>© 2026 All Rights Reserved</p></footer>
+<div class="top"><button class="fab mode" onclick="document.body.classList.toggle('dark')">🌙</button><a class="fab wa" href="https://wa.me/237674276802">💬</a></div>
+<div class="lightbox" id="lb"><img id="lbimg"><script>
+document.querySelectorAll('.gallery img').forEach(i=>i.onclick=()=>{lb.classList.add('show');lbimg.src=i.src});lb.onclick=()=>lb.classList.remove('show');
+</script></div>
+</body></html>
